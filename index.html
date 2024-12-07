@@ -38,23 +38,8 @@
   <section id="shop" class="shop">
     <div class="container">
       <h2>Shop Our Collection</h2>
-      <div class="products">
-        <div class="product">
-          <img src="images/guppy.jpg" alt="Guppy Fish">
-          <h3>Colorful Guppies</h3>
-          <p>$10 each</p>
-        </div>
-        <div class="product">
-          <img src="images/tank.jpg" alt="Fish Tank">
-          <h3>Premium Fish Tank</h3>
-          <p>$50</p>
-        </div>
-        <div class="product">
-          <img src="images/plants.jpg" alt="Aquarium Plants">
-          <h3>Aquarium Plants</h3>
-          <p>$15 per set</p>
-        </div>
-      </div>
+      <div id="products" class="products"></div>
+      <button id="checkout-btn" class="btn">Checkout ($<span id="total-price">0</span>)</button>
     </div>
   </section>
 
@@ -63,5 +48,7 @@
       <p>&copy; 2024 Guppy Galaxy. All rights reserved.</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
