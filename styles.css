@@ -5,6 +5,29 @@
   box-sizing: border-box;
 }
 
+/* Button Styles for Cart */
+.product button {
+  margin-top: 1rem;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.product button:hover {
+  background: #0056b3;
+}
+
+#checkout-btn {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
