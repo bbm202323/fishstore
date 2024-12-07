@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guppies Galore - Fish Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Guppies Galore</h1>
+        <p>Your one-stop shop for beautiful aquarium fish!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#fish">Fish</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Guppies Galore</h2>
+        <p>We provide a variety of freshwater fish, aquarium supplies, and expert advice to make your aquarium thrive.</p>
+    </section>
+
+    <section id="fish">
+        <h2>Our Fish</h2>
+        <div class="fish-card">
+            <img src="images/guppy.jpg" alt="Colorful Guppy">
+            <h3>Colorful Guppy</h3>
+            <p>Price: $5.00</p>
+            <button onclick="addToCart('Colorful Guppy', 5)">Add to Cart</button>
+        </div>
+        <div class="fish-card">
+            <img src="images/tetra.jpg" alt="Neon Tetra">
+            <h3>Neon Tetra</h3>
+            <p>Price: $3.00</p>
+            <button onclick="addToCart('Neon Tetra', 3)">Add to Cart</button>
+        </div>
+        <div class="fish-card">
+            <img src="images/angelfish.jpg" alt="Angelfish">
+            <h3>Angelfish</h3>
+            <p>Price: $10.00</p>
+            <button onclick="addToCart('Angelfish', 10)">Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Guppies Galore, we are passionate about bringing vibrant aquatic life into your home. Our team of fish enthusiasts ensures every fish is healthy and ready for your aquarium.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Guppies Galore. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
